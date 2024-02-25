@@ -1,0 +1,22 @@
+Project Title: Artisan Irrigation Website
+
+Author: Francis McCleneghen
+
+Description:
+  This is an application for my father's company Artisan Irrigation. It was created for my course CIS480 at ECPI University.
+  The purpose of this application is to serve as a website for the company and an alternative method of submitting and receiving maintenance request tickets.
+  We hope this application will reduce incoming phone traffic and provide a convenient way for customers to request maintenance on their irrigation systems.
+
+Built with:
+  Languages: PHP, HTML, JavaScript, CSS
+  Xampp - Apache webserver distribution that contains MariaDB, PHP, and Perl.
+  phpMyAdmin - An administration tool for MySQL and MariaDB
+
+Requirements:
+  A database is set up using phpMyAdmin using the provided ".sql" file.
+
+Usage Instructions:
+  Users can navigate throughout the website using the top navigation bar. 
+  Users can log in at three "user levels": Admin, Technician, or User. Admins can view the database connection status. Technicians have access to the maintenance ticket management form. Users have access to the Account page and maintenance ticket request form.
+  
+  
