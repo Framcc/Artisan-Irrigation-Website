@@ -1,0 +1,166 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+
+.topNav {
+    background-color: rgba(73,115,152,225);
+    overflow: hidden;
+}
+
+.topNav .logo {
+    background-color: white;
+}
+
+.topNav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topNav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topNav a.active {
+    background-color: rgb(9, 9, 42);
+    color: white;
+}
+
+.topNav h1 {
+   color: white;
+   padding: 14px 16px;
+   text-align: center;
+}
+
+.topNav #logout, #login {
+    float: right;
+    background-color: rgba(73,115,152,225);
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: none;
+    
+}
+.topNav #logout:hover, #login:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.hero input {
+    background-color: rgba(73,115,152,225);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 24px;
+
+}
+
+.hero {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 50%;
+    border: 3px solid rgba(73,115,152,225);
+    padding: 10px;
+    text-align: center;
+}
+
+.hero h1 {
+    color:rgba(73,115,152,225);
+    
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-left-style: solid;
+    border-color: rgba(73,115,152,225);
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-left-style: solid;
+    border-color: rgba(73,115,152,225);
+}
+
+.about {
+    background-color: white;
+    color:black;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: rgba(73,115,152,225);
+    border-width: thin;
+}
+
+.contact {
+    background-color: white;
+    color:black;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: rgba(73,115,152,225);
+    border-width: thin;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.contact ul li {
+    margin-bottom: 10px;
+}
+
+.contact h3 {
+    margin-top: 0;
+}
+
+.user_info {
+    border-left-style: solid;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-right-style: dotted;
+    border-color: rgba(73,115,152,225);
+    border-width: 5px;
+    padding: 16px;
+    margin-top: 10;
+}
+
+footer {
+    background-color: rgba(73,115,152,225);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
