@@ -155,7 +155,7 @@
                 <?php if(strlen($lName_error) > 0)
                     echo "<span style = 'color: red;'>{$lName_error}</span>"; ?>
             </h3>
-            <h3>EMail: <input type='text' name='email' value="<?php echo $user->getEmail(); ?>"> 
+            <h3>E-Mail: <input type='text' name='email' value="<?php echo $user->getEmail(); ?>"> 
                 <?php if(strlen($email_error) > 0)
                     echo "<span style = 'color: red;'>{$email_error}</span>"; ?>
             </h3>
